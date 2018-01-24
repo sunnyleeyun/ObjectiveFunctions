@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  self.label.text = @"Apple";
+  self.textView.text = @"Banana";
 }
 
 
@@ -25,5 +26,18 @@
   // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)enterText:(id)sender {
+  self.label.text = self.textField.text;
+  [self resignFirstResponder];
+}
+
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+  if ([text rangeOfCharacterFromSet:[NSCharacterSet newlineCharacterSet]].location == NSNotFound) {
+    return YES;
+  }
+  [textView resignFirstResponder];
+  return NO;
+}
 
 @end
