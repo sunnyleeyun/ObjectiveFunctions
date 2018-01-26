@@ -13,6 +13,7 @@
 		041C884020183914005FBD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C883F20183914005FBD36 /* Assets.xcassets */; };
 		041C884320183914005FBD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C884120183914005FBD36 /* LaunchScreen.storyboard */; };
 		041C884620183914005FBD36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C884520183914005FBD36 /* main.m */; };
+		04D0C127201B0DBC007C5BF9 /* edgeracer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D0C126201B0DBC007C5BF9 /* edgeracer.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		041C884220183914005FBD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041C884420183914005FBD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041C884520183914005FBD36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D0C126201B0DBC007C5BF9 /* edgeracer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edgeracer.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				041C884120183914005FBD36 /* LaunchScreen.storyboard */,
 				041C884420183914005FBD36 /* Info.plist */,
 				041C884520183914005FBD36 /* main.m */,
+				04D0C126201B0DBC007C5BF9 /* edgeracer.ttf */,
 			);
 			path = ObjectiveFunctions;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				041C884320183914005FBD36 /* LaunchScreen.storyboard in Resources */,
 				041C884020183914005FBD36 /* Assets.xcassets in Resources */,
 				041C883E20183914005FBD36 /* Main.storyboard in Resources */,
+				04D0C127201B0DBC007C5BF9 /* edgeracer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

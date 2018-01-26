@@ -67,6 +67,10 @@
   self.label.textAlignment = NSTextAlignmentRight;
 }
 
+- (IBAction)customFont:(id)sender {
+  [self.label setFont:[UIFont fontWithName:@"edgeracer" size:30]];
+}
+
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
   if ([text rangeOfCharacterFromSet:[NSCharacterSet newlineCharacterSet]].location == NSNotFound) {
     return YES;
